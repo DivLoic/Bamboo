@@ -84,3 +84,4 @@ target/*
 
 # TeXlipse plugin
 .texlipse
+/target/

@@ -56,8 +56,8 @@ fi
 # ### CHECK IF THE PARAM IS A DIRECTORY
 if [ ! -d $TARGET ];then
 	echo "$TARGET is not a directory."
-	echo "Script exit with error code: 2."
-	exit
+	echo "Script exit with error code: 1."
+	exit 1
 fi   
 
 if [ -z $FORCE ];then
@@ -68,11 +68,11 @@ if [ -z $FORCE ];then
 	read -p "Please, confirm this operation (y/n) " -r
 	if [[ ! $REPLY =~ ^[Yy]$ ]]
 	then
-        	echo "Script exit with error code: 1."
-        	exit 1
+        	echo "Script exit with error code: 0."
+        	exit 0
 	fi
 fi
 	
 echo "Start acces to the hadoop-client."
 `hdfs dfs -put $TARGET /user/panda/` && echo "Script exit with error code: 2." | exit 2
-echo "Script terminate with code: 1"
+echo "Script terminate with code: 0"
