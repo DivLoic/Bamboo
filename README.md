@@ -54,8 +54,8 @@ datetime: String	   | industry  |	values: Array\<float\>
 
 The Team
 ------------
-Pandas Corp. members are:
-[@dchanthavong](https://github.com/dchanthavong),
-[@RomainPhilippe](https://github.com/RomainPhilippe),
-[@nrasolom](https://github.com/nrasolom),
-[@DivLoic](https://github.com/DivLoic).
+Pandas Corp: 
+- [@dchanthavong](https://github.com/dchanthavong)
+- [@RomainPhilippe](https://github.com/RomainPhilippe)
+- [@nrasolom](https://github.com/nrasolom)
+- [@DivLoic](https://github.com/DivLoic)
