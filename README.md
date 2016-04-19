@@ -2,8 +2,9 @@
 ###### By The team Pandas
 ![Pandas Corp. Logo](https://dl.dropboxusercontent.com/s/e57l5e47rqtq39q/PandasCorp_githubbanner.png?dl=0)
 
-This is a part of the ISEP'15 Bigdata project.
-Bamboo is a set of functions to run Custom HIVE UDF
+This is a part of the ISEP'15 Bigdata project. Bamboo is a set of functions to run Custom HIVE UDF.  
+Apache Hive is a data warehouse infrastructure built on top of Hadoop for providing data summarization.
+
 
 Prerequisites
 -------------
@@ -44,9 +45,9 @@ ORDER BY datetime;
 
 Design
 ------------
-Here is an exemple of work table build for the queries. Tables are filled with the [EnerNOC](http://www.enernoc.com) open dataset. Find the measure over on year (2012) for one undred sites -----> [HERE](https://open-enernoc-data.s3.amazonaws.com/anon/index.html).
+Here is an exemple of a work table built for the queries. Tables are filled with the [EnerNOC](http://www.enernoc.com) open dataset. Find the measure over on year (2012) for one undred sites -----> [HERE](https://open-enernoc-data.s3.amazonaws.com/anon/index.html).
 
-datetime: String	   | industry  |	values: Array\<float\>  
+datetime: String	    | industry  |	values: Array\<float\>  
 ---------------------|-----------|--------------------------
 2015-01-01 00:05:00  | Education |	\[, , , , , \] (x25)
 2015-01-01 00:05:00  | Commerce  |	\[, , , , , \] (x25)
